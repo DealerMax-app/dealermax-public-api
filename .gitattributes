@@ -3,3 +3,4 @@
 *.mjs text eol=lf
 *.py text eol=lf
 *.json text eol=lf
+*.png binary

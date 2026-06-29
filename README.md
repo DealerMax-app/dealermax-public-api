@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://dealermax.app/assets/dealermax-wordmark-light.png" alt="DealerMAX" width="220">
+<img src="assets/wordmark.png" alt="DealerMAX.app" width="280">
 
 # DealerMAX Public API
 
