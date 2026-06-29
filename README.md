@@ -35,7 +35,7 @@ This repository holds the **canonical OpenAPI specification** and **runnable exa
 | Surface | What it is | Auth | Where |
 |---|---|---|---|
 | **Dealer Public API** *(this repo)* | One dealer's own inventory + content, read-only | API key (`X-Api-Key`) | `catalog.dealermax.app` |
-| **MCP Server** | Keyless, network-wide search for AI agents | None (public) | [`mcp.dealermax.app/mcp`](https://developers.dealermax.app/mcp) |
+| **MCP Server** | Keyless, network-wide search for AI agents | None (public) | [dealermax-mcp](https://github.com/DealerMax-app/dealermax-mcp) · [docs](https://developers.dealermax.app/mcp) |
 | **PartnerMAX Enterprise** | Multi-dealer, write-side workflows for approved partners | Partner key (`pmx_…`) | [partnermax-python](https://github.com/DealerMax-app/partnermax-python) · [partnermax-node](https://github.com/DealerMax-app/partnermax-node) |
 
 > Write operations live behind **PartnerMAX Enterprise**. The Dealer Public API never writes.
@@ -127,7 +127,7 @@ Open any `type` URL for the human-readable cause and fix. Full catalog: [develop
 ## Links
 
 - 📚 Developer portal — https://developers.dealermax.app
-- 🤖 MCP server — https://developers.dealermax.app/mcp
+- 🤖 MCP server — [repo](https://github.com/DealerMax-app/dealermax-mcp) · [docs](https://developers.dealermax.app/mcp)
 - 📦 PartnerMAX SDKs — [Python](https://github.com/DealerMax-app/partnermax-python) · [Node](https://github.com/DealerMax-app/partnermax-node)
 - 🟢 Service status — https://status.dealermax.app
 - ✉️ Support — support@dealermax.app
